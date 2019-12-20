@@ -1,0 +1,167 @@
+#bgk{
+    
+}
+body{
+    position: absolute;
+    width: 100%;
+}
+/* 1 */
+.topnav {
+    background-color:crimson ;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+#image{
+    float:left;
+    margin-top: 13px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+   
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/*22. Header */  
+header {
+    margin: 0 auto; 
+    display: inline-block;
+    width: 100%;
+    height: auto; 
+    margin: 0 auto; 
+   
+    border: 1px solid red; 
+    border-bottom:none;
+}
+header img {
+    float: left;
+    width: 220px;
+    height: 220px;
+}
+#table{
+    background-color: white;
+    display: inline;
+    margin-left: 0px;  
+}
+#table a{
+    color: black;
+}
+#icon{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 0px;
+}
+#hover:hover{
+    opacity: 0.5;
+}
+
+#info{
+    margin-left:64px;
+    margin-right:25px;
+}
+
+#logo{
+   background-color: lavenderblush;
+}
+
+#logo h1, p {
+    display:inline-table; 
+}
+#logo p{
+    margin-left: 10px;
+}
+#logo h1 {
+    text-shadow:3px 3px 3px #b9a698; 
+}
+.title {
+    color:#8c0209; 
+    
+} 
+#login{
+    float:right;
+    margin-top: -11px;
+}
+#mycss{
+    margin-top: 11px;
+}
+
+/*3 */     
+
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    height: 47px; 
+    background-color: palevioletred;
+    display: inline-block;
+
+}  
+.navbar {
+    overflow: hidden;
+    padding-left:5px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a img{
+    margin-top:-2.5px;
+}
+
+#list{
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+/*2.1 Tìm kiếm */  
+#timkiem{
+    text-align: center;
+    margin-right:7px;
+    margin-top: -48px;
+}  
+#txtTim{ 
+    width: 30%;
+    height: 30px; 
+    border: 1px solid #CA8186;
+    font-style: italic; 
+    color:#787878;
+}
+#btnTim{
+    height:30px; 
+    width: 27px;
+    position: relative; 
+    top:10px;
+
+}
+
+/*Vat pham*/
+.content-item li{
+    float: left;
+    padding: 2px 5px;
+    border: 1px solid black; border-radius: 1.5em 1.5em 1.5em 1.5em; margin: 10px; list-style-type: none; background-color: whitesmoke; box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/*sidebat content*/
